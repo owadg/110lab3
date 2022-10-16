@@ -9,6 +9,14 @@
     font-weight: bold;
     font-style: italic;
 }
+@media (max-width: 400px){
+    /* if someone has a small screen width, lets reduce the padding and margins of the video and audio elements*/
+    video, audio {
+        display: block;
+        margin:20px 20px 20px 20px;
+        padding: 20px 20px 20px 20px;
+    }
+}
 
 html {
     font-family: "NotoSansMono", Helvetica, Verdana, sans-serif;
