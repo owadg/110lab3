@@ -3,7 +3,31 @@
     font-family: "NotoSansMono";
     src: url(./fonts/NotoSansMono-VariableFont_wdth\,wght.ttf);
 }
+@font-face {
+    font-family: "Oswald";
+    src: url(./fonts/Oswald-VariableFont_wght.ttf);
+    font-weight: bold;
+    font-style: italic;
+}
 
 html {
     font-family: "NotoSansMono", Helvetica, Verdana, sans-serif;
+}
+
+.fancyTitle {
+    width: 350px;
+    height: 50px;
+    padding: 10px;
+
+    border-color: black;
+    border-radius: 10px;
+    border-width: 20px;
+
+    margin: auto;
+
+    font-family: "Oswald";
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    -webkit-background-clip: text;
+    color: transparent;
+    
 }
