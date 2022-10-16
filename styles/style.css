@@ -48,3 +48,31 @@ input[type],select, textarea, input[list]{
 nav > h1, nav > h2, nav >h3 {
     display: none;
 }
+
+main .alert{
+    background: white;
+    color: red;
+    padding-left: 20px;
+}
+
+.alert ~ .alert {
+    top: 40px;
+}
+
+main span .alert {
+    margin-left: auto;
+    width: 200px;
+    position: sticky;
+    top: 20px;
+}
+
+.scary:hover{
+    color: red;
+    background-color: yellow;
+    transition: color 0.5s;
+    transition: background-color 0.5s;
+}
+
+.scary:hover:active{
+    background: blue;
+}
