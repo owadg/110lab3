@@ -34,3 +34,7 @@ video, audio {
     margin:20px 50% 50px 30rem;
     padding: 30pt 12vw 40pt 12vw
 }
+
+*{
+    background-color: blanchedalmond;
+}
