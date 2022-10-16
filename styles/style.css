@@ -37,9 +37,6 @@ video, audio {
 
 *{
     background-color: blanchedalmond;
-<<<<<<< Updated upstream
-}
-=======
 }
 
 input[type],select, textarea, input[list]{
@@ -68,4 +65,14 @@ main span .alert {
     position: sticky;
     top: 20px;
 }
->>>>>>> Stashed changes
+
+.scary:hover{
+    color: red;
+    background-color: yellow;
+    transition: color 0.5s;
+    transition: background-color 0.5s;
+}
+
+.scary:hover:active{
+    background: blue;
+}
