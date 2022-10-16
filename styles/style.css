@@ -23,6 +23,7 @@ html {
 }
 
 .fancyTitle {
+    position: static;
     width: 350px;
     height: 50px;
     padding: 10px;
