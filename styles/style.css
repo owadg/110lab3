@@ -63,7 +63,7 @@ main .alert{
     padding-left: 20px;
 }
 
-.alert ~ .alert {
+.alert + .alert {
     top: 40px;
 }
 
@@ -84,3 +84,7 @@ main span .alert {
 .scary:hover:active{
     background: blue;
 }
+
+h1 ~ ol, h2 ~ ol, h3 ~ol, h1 ~ ul, h2 ~ ul, h3 ~ul{
+    border: solid black 4px
+} 
