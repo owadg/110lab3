@@ -1,0 +1,9 @@
+/* ruleset that specifies to download the font file*/
+@font-face {
+    font-family: "NotoSansMono";
+    src: url(./fonts/NotoSansMono-VariableFont_wdth\,wght.ttf);
+}
+
+html {
+    font-family: "NotoSansMono", Helvetica, Verdana, sans-serif;
+}
