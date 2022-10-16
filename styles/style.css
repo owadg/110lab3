@@ -38,3 +38,13 @@ video, audio {
 *{
     background-color: blanchedalmond;
 }
+
+input[type],select, textarea, input[list]{
+    background: #ffffff;
+}
+
+
+/* We don't want any big headers in our nav! */
+nav > h1, nav > h2, nav >h3 {
+    display: none;
+}
