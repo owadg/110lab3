@@ -88,3 +88,19 @@ main span .alert {
 h1 ~ ol, h2 ~ ol, h3 ~ol, h1 ~ ul, h2 ~ ul, h3 ~ul{
     border: solid black 4px
 } 
+
+.attendance {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 25px;
+    row-gap: 25px;
+}
+
+.flexForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    row-gap: 20px;
+}

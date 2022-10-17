@@ -35,10 +35,14 @@
         <h2>10/06/2022</h2>
         <hr>
         <h2>Attending members</h2>
-        <ul>
-            <li>Noah T.</li>
-            <li>Guadalupe S. </li>
-            <li>Sir Timothy IV.</li>
+        <ul class="attendance">
+            <li class="gridItem">Noah T.</li>
+            <li class="gridItem">Guadalupe S. </li>
+            <li class="gridItem">Sir Timothy IV.</li>
+            <li class="gridItem">Waffle Man</li>
+            <li class="gridItem">Pancake Man</li>
+            <li class="gridItem">Someone's Weird Uncle</li>
+
         </ul>
         <details>
             <Summary>Not on the list?</Summary>
@@ -119,30 +123,30 @@
     <footer>
         <h3>Authors:</h3>
         Noah Terminello
-        <fieldset>
+        <fieldset >
             <legend>Want to contribute?</legend>
-            <form >
+            <form class="flexForm">
                 <label>Enter your name:</label>
                 <br>
                 <input type="text" name="name"> 
                 <br>
                 Age of contributor:
-                <br>
+                <br><span>
                 <input type="radio" name="age"> 0-21  
 
                 <input type="radio" name="age">21+  
-                <br>
+                </span><br>
                 Date of contribution:
                 <br>
                 <input type="date">
                 <br>
                 Section contribution to:
-                <br>
+                <br><span>
                 <input type="checkbox" name="contribution type">Attendance 
                 <input type="checkbox" name="contribution type">Agenda 
                 <input type="checkbox" name="contribution type">Highlights 
                 <input type="checkbox" name="contribution type">Completed items 
-                <br>
+                </span><br>
                 <br>
                 Reason for contribution:
                 <br>
@@ -172,6 +176,7 @@
                 <button type="button">Submit</button>
             </form>
         </fieldset>
+
     </footer>
 </body>
 
